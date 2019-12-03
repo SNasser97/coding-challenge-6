@@ -2,9 +2,9 @@
 Optional Javascript Exercises part of ZTM Course
 
 ### Question 1
-..* Clean the room function: 
-	given an input of [1,2,4,591,392,391,2,5,10,2,1,1,1,20,20], 
-	1. make a function that organizes these into individual array that is ordered. 
+ Clean the room function: 
+	
+	1. given an input of [1,2,4,591,392,391,2,5,10,2,1,1,1,20,20]make a function that organizes these into individual array that is 	ordered. 
 	 For example answer(ArrayFromAbove) 
 	 should return: [[1,1,1,1],[2,2,2], 4,5,10,[20,20], 391, 392,591]. 
 
@@ -12,7 +12,8 @@ Optional Javascript Exercises part of ZTM Course
 	from number types. i.e. [1, "2", "3", 2] should return [[1,2], ["2", "3"]]
 
 ### Question 2
-..* Write a javascript function that takes an array of numbers and a target number. 
+ Write a javascript function that takes an array of numbers and a target number
+ 
 	The function should find two different numbers in the array that, 
 	when added together, give the target number. 
 
@@ -20,9 +21,9 @@ Optional Javascript Exercises part of ZTM Course
 
 
 ### Question 3
-..* Write a function that converts HEX to RGB. 
+ Write a function that converts HEX to RGB. 
 
-	Then Make that function auto-dect the formats so that 
+	Then Make that function auto-detect the formats so that 
 
-	if you enter HEX color format it returns RGB and 
-	if you enter RGB color format it returns HEX.
+	If you enter HEX color format it returns RGB and 
+	If you enter RGB color format it returns HEX.
