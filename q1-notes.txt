@@ -1,0 +1,59 @@
+//////////////////////////////////////////////////
+// IMPROVEMENTS - Where duplicate string values are stored the same way
+/* 
+  above seperates numbers and strings, this mehtod checks duplicate string values:
+	1. remove/comment out  (LINE 42 - LINE 47);
+	2. add the code labelled (below) : "METHOD2" to LINE 42
+	3. add on LINE 56 => return cleanArr;
+*/
+/////////////////////////////////////////////////
+//  METHOD2
+	   
+/* 
+	 // check for duplicate string/quoted numbers "2" == "2" then [..,["2","2"], "3"...]
+	 for(let i = 0; i<arrString.length; i++) {
+	 	if(arrString[i] == arrString[i+1]) { 
+	 		temp.push(arrString[i]);
+	 	} else if(arrString[i] == arrString[i-1]) {
+ 		temp.push(arrString[i]);
+			subArray.push(temp);
+	 		temp = [];
+	 	} else if(arrString[i] != arrString[i+1]) { 
+	 		temp.push(arrString[i])
+ 			subArray.push(temp);
+ 			temp = [];
+	 	}
+	 }
+
+	return cleanArr.concat([subArray]);
+
+*/
+
+/////////////////////////////////////////////////
+// OLD NOTES
+
+	// mainArray.push(subArray, arrString);
+	// console.log("FINAL RESULT", cleanArr);
+
+
+	// console.log("temp value",temp);
+	// console.log("subarray values", subArray);
+	// console.log("check array String:", arrString, "\n check array Number:",arrNum);
+
+	// subArray.push(sortedArray.filter((item, i) => item === sortedArray[item]));
+	// subArray.push(sortedArray.filter((item, i) => item === 2));
+	// subArray.push(sortedArray.filter((item, i) => item === 20));
+
+	// console.log("sorted =>", sortedArray);
+	// console.log("sub array =>", subArray);
+	// console.log("mainArray =>", mainArray);
+	// console.log("finalArray =>", finalArray);
+
+
+
+	// return subArray;
+	// for(let i = 0; i < array.length; i++) {
+	// 	finalArray.push(sortedArray.filter(item => item === array[i]));
+	// }
+
+	// return finalArray;
